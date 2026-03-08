@@ -1,0 +1,11 @@
+Este proyecto consiste en un análisis exploratorio de datos de ventas de cuatro tiendas utilizando Python y la librería Pandas. El objetivo es analizar el desempeño de cada tienda, identificar qué categorías y productos generan más ingresos y evaluar la satisfacción de los clientes a partir de sus calificaciones.
+
+Los datos provienen del Challenge de Data Science de Alura LATAM y se cargan desde archivos CSV que representan las ventas de cada tienda. Cada archivo contiene información como el nombre del producto, la categoría, el precio, el costo de envío y la calificación otorgada por los clientes.
+
+Primero se cargan los datos de las cuatro tiendas y posteriormente se combinan en un solo DataFrame para facilitar el análisis general. Después se crea una nueva columna llamada “ingreso_total”, que representa el ingreso generado por cada venta sumando el precio del producto y el costo de envío.
+
+Con los datos integrados se realizan varios análisis, como el cálculo del ingreso total generado por todas las ventas, el ingreso por categoría de producto y la cantidad de ventas por categoría. También se calcula el promedio de calificación de cada tienda para evaluar el nivel de satisfacción de los clientes.
+
+Además, se identifican los productos más vendidos en cada tienda, lo que permite observar tendencias de consumo y determinar qué productos tienen mayor demanda.
+
+Este análisis permite obtener información útil sobre el desempeño de las tiendas, las preferencias de los clientes y las categorías de productos que generan mayor impacto en las ventas.
